@@ -1,0 +1,19 @@
+
+
+Index com botao 
+
+botao em JS cria 1000 tickets 
+
+manda para o PY
+
+recebo os tickets com o FastAPI
+
+
+
+
+
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+http-server
+
+celery -A celery worker --loglevel=info
